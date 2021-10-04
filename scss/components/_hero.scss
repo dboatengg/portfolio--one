@@ -2,7 +2,6 @@
     background-color: #2b5876;
     background-image: linear-gradient(to right, #2b5876, #4e4376),url("/assets/png/oriental-tiles.png");
     height: 100vh;
-    position: relative;
     color: #fff;
     max-height: 120rem;
     text-align: center;
@@ -10,7 +9,6 @@
     
     
     .hero__content {
-        padding-top: 30px;
         width: 90%;
         position: absolute;
         top: 50%;
@@ -53,6 +51,11 @@
     padding: 1.5rem 8rem;
 }
 
+.hero__paragraph {
+    margin-top: 20px auto 0 auto;
+    font-size: 2rem;
+}
+
 // media querry --smaller screens
 @media only screen and (max-width: 768px){
     .button--large {
@@ -61,11 +64,17 @@
     .hero__title {
         font-size: 4rem;
     }
+    .hero__paragraph {
+        font-size: 1.8rem;
+    }
 }
 
 //screens below 320px
 @media only screen and (max-width: 320px){
     .button--large {
         padding: 1.5rem 2.5rem;
+    }
+    .hero__title {
+        font: 2.5rem;
     }
 }
