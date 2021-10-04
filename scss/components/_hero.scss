@@ -1,0 +1,71 @@
+.hero {
+    background-color: #2b5876;
+    background-image: linear-gradient(to right, #2b5876, #4e4376),url("/assets/png/oriental-tiles.png");
+    height: 100vh;
+    position: relative;
+    color: #fff;
+    max-height: 120rem;
+    text-align: center;
+    min-height: 60rem;
+    
+    
+    .hero__content {
+        padding-top: 30px;
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+.hero__title {
+    text-transform: uppercase;
+    font-size: 6rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.hero__text {
+    line-height: 1.6;
+}
+
+
+.hero__cta {
+    text-align: center;
+    margin-top: 50px;
+    
+    .hero__button {
+        border: 0;
+    }
+
+    .button {
+        color: color(primary-color);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        display: inline-block;
+        font-weight: 700;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        background: rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+}
+.button--large {
+    font-size: 2rem;
+    padding: 1.5rem 8rem;
+}
+
+// media querry --smaller screens
+@media only screen and (max-width: 768px){
+    .button--large {
+        padding: 1.5rem 5rem;
+    }
+    .hero__title {
+        font-size: 4rem;
+    }
+}
+
+//screens below 320px
+@media only screen and (max-width: 320px){
+    .button--large {
+        padding: 1.5rem 2.5rem;
+    }
+}

@@ -1,4 +1,10 @@
+// base 
 @import "./base/base";
-@import "./components/header";
+
+// abstracts 
 @import "./abstracts/mixins";
 @import "./abstracts/variables";
+
+// components 
+@import "./components/header";
+@import "./components/hero";

@@ -14,25 +14,47 @@
     />
   </head>
   <body>
+    <!-- header component start -->
+    <header class="header">
+      <nav class="navbar">
+        <a class="logo" href="index.html">Boatengg.</a>
+        <ul class="nav__menu">
+          <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Projects</a>
+          </li>
+          <li class="nav__item"><a class="nav__link" href="#">Blog</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+        </ul>
+        <button class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </nav>
+    </header>
+    <!-- header component end  -->
     <main class="main">
-      <header class="header">
-        <nav class="navbar">
-          <a class="logo" href="index.html">Boatengg.</a>
-          <ul class="nav__menu">
-            <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
-            <li class="nav__item">
-              <a class="nav__link" href="#">Projects</a>
-            </li>
-            <li class="nav__item"><a class="nav__link" href="#">Blog</a></li>
-            <li class="nav__item"><a class="nav__link" href="#">About</a></li>
-          </ul>
-          <button class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </button>
-        </nav>
-      </header>
+      <!-- hero component start-->
+      <section class="hero">
+        <div class="hero__content main__container">
+          <h1 class="hero__title">hey, my name is boateng dickson</h1>
+          <div class="hero__paragraph">
+            <p class="hero__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+              eius quam, dolores eveniet voluptatibus numquam ad vel natus
+              voluptates provident porro magni fugiat tempora iure, voluptas
+              minima culpa! Maiores, aliquid?
+            </p>
+          </div>
+          <div class="hero__cta">
+            <button class="hero__button button button--large" type="button">
+              Projects
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- hero component end  -->
     </main>
     <script src="main.js"></script>
   </body>
