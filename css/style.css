@@ -108,7 +108,7 @@ a {
   .nav__menu {
     position: fixed;
     left: -100%;
-    top: 6rem;
+    top: 8rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
