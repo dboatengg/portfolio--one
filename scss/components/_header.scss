@@ -1,23 +1,31 @@
 @import "../abstracts/mixins";
+
 .navbar {
     @include flex-s-b;
-    border-bottom: 1px solid red;
-    padding: 1rem 1.5rem;
+    background-color: #fff;
+    border-bottom: 1px solid #E2E8F0;;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+    padding: 1rem 2.5rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
     .logo {
-        font-size: 2rem;
+        font-size: 3rem;
         font-weight: 600;
     }
     .nav__menu {
         @include flex-s-b;
 
-        .nav__item {
-            margin-left: 5rem;
+    }
+}
+.nav__item {
+    margin-left: 50px;
 
-            .nav__link {
-                color: colors(primary-color);
-                
-            }
-        }
+    .nav__link {
+        color: colors(primary-color);
+        font-weight: 400;
+        
     }
 }
 
@@ -43,7 +51,7 @@
     .nav__menu {
         position: fixed;
         left: -100%;
-        top: 5rem;
+        top: 6rem;
         flex-direction: column;
         background: #fff;
         box-shadow:
@@ -53,7 +61,7 @@
         transition: 0.5s;
 
         .nav__item {
-            margin: 2.5rem 0rem;
+            margin: 25px 0px;
         }
 
     }
