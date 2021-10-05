@@ -152,7 +152,6 @@ a {
   color: #fff;
   max-height: 120rem;
   text-align: center;
-  min-height: 60rem;
 }
 
 .hero .hero__content {
@@ -207,6 +206,9 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+  .hero {
+    height: 86vh;
+  }
   .button--large {
     padding: 1.5rem 5rem;
   }
