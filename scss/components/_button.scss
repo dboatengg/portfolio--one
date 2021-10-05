@@ -26,10 +26,15 @@
     letter-spacing: 2px;
     padding: 1.5rem 8rem;
 }
-
+.about-buttons {
+    display: flex;
+}
+.button--resume {
+    margin-left: 30px;
+}
 .button--md {
     font-size: 1.4rem;
-    padding: 1.5rem 5rem;
+    padding: 1.5rem 2rem;
     font-weight: 600;
 }
 .button--background-primary {
@@ -45,6 +50,12 @@
 @media only screen and (max-width: 768px){
     .button--large {
         padding: 1.5rem 5rem;
+    }
+    .about-buttons {
+        display: block;
+    }
+    .button--resume {
+        margin: auto;
     }
 }
 

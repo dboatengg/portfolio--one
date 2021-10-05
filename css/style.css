@@ -360,9 +360,19 @@ main {
   padding: 1.5rem 8rem;
 }
 
+.about-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.button--resume {
+  margin-left: 30px;
+}
+
 .button--md {
   font-size: 1.4rem;
-  padding: 1.5rem 5rem;
+  padding: 1.5rem 2rem;
   font-weight: 600;
 }
 
@@ -377,6 +387,12 @@ main {
 @media only screen and (max-width: 768px) {
   .button--large {
     padding: 1.5rem 5rem;
+  }
+  .about-buttons {
+    display: block;
+  }
+  .button--resume {
+    margin: auto;
   }
 }
 
@@ -415,7 +431,7 @@ main {
 }
 
 .about-cta {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .about-flex {
@@ -452,10 +468,17 @@ main {
     margin: auto;
   }
   .knoww {
-    margin-top: 30px;
+    margin-top: 40px;
   }
   .about__text {
     width: 85%;
+  }
+  .about-cta {
+    margin-top: 20px;
+  }
+  .skill {
+    padding: 7px 15px;
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=style.css.map */
