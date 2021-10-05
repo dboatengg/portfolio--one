@@ -21,7 +21,16 @@ a {
 }
 .main__container {
     max-width: 80rem;
+    margin: auto;
+}
+.main__cont {
+    max-width: 120rem;
+    margin: auto;
 }
 main {
     margin-top: 80px;
+}
+
+.lock-scroll {
+    overflow: hidden;
 }

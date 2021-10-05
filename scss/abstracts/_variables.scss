@@ -1,6 +1,8 @@
 // colors 
 $colors:(
     "primary-color": #2b5876,
+    "text-color": #777,
+    "skill-background": rgba(153,153,153,0.2),
 );
 
 @function color($color-name){
