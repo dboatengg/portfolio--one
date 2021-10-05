@@ -154,6 +154,7 @@ main {
   text-align: center;
   display: -ms-grid;
   display: grid;
+  overflow: hidden;
   place-items: center;
   -ms-place-items: center;
   -webkit-place-items: center;
