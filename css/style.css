@@ -30,9 +30,8 @@ a {
   max-width: 80rem;
 }
 
-.main {
-  position: relative;
-  top: 80px;
+main {
+  margin-top: 80px;
 }
 
 .navbar {
@@ -55,6 +54,7 @@ a {
   top: 0;
   width: 100%;
   z-index: 999;
+  overflow: hidden;
 }
 
 .navbar .logo {
@@ -152,15 +152,17 @@ a {
   color: #fff;
   max-height: 120rem;
   text-align: center;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -ms-place-items: center;
+  -webkit-place-items: center;
+  -moz-place-items: center;
+  -o-place-items: center;
 }
 
 .hero .hero__content {
   width: 90%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
 }
 
 .hero__title {
@@ -208,6 +210,7 @@ a {
 @media only screen and (max-width: 768px) {
   .hero {
     height: 86vh;
+    min-height: 45rem;
   }
   .button--large {
     padding: 1.5rem 5rem;
@@ -221,6 +224,9 @@ a {
 }
 
 @media only screen and (max-width: 320px) {
+  .hero {
+    min-height: 65rem;
+  }
   .button--large {
     padding: 1.5rem 2.5rem;
   }
