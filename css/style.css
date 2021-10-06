@@ -141,6 +141,7 @@ h2, h3 {
   }
   .nav__menu .nav__item {
     margin: 25px 0px;
+    font-size: 2rem;
   }
   .hamburger {
     display: block;
@@ -251,6 +252,7 @@ h2, h3 {
   }
   .nav__menu .nav__item {
     margin: 25px 0px;
+    font-size: 2rem;
   }
   .hamburger {
     display: block;
