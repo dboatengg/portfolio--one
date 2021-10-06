@@ -1,0 +1,23 @@
+.blog {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+.blog__content {
+    text-align: left;
+}
+.blog__link {
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 30px;
+}
+.blog__title {
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+    .blog__link {
+        margin-bottom: 15px;
+    }
+}
