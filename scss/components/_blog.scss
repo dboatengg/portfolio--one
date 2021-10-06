@@ -1,6 +1,7 @@
 .blog {
     text-align: center;
     width: 40%;
+    // min-width: 100%;
     margin: auto;
 }
 .blog__content {
@@ -19,5 +20,8 @@
 @media (max-width: 768px) {
     .blog__link {
         margin-bottom: 15px;
+    }
+    .blog {
+        width: 90%;
     }
 }

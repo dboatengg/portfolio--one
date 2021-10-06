@@ -582,6 +582,9 @@ h2, h3 {
   .blog__link {
     margin-bottom: 15px;
   }
+  .blog {
+    width: 90%;
+  }
 }
 
 .contact {
