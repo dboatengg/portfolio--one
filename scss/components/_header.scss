@@ -16,6 +16,7 @@
         font-size: 3rem;
         font-weight: 600;
         color: color(primary-color);
+        font-family: 'Source Sans Pro', sans-serif;
     }
     .nav__menu {
         @include flex-s-b;
@@ -27,7 +28,7 @@
 
     .nav__link {
         color: color(primary-color);
-        font-weight: 600;
+        font-weight: 500;
         
         &:hover {
             color: #000;

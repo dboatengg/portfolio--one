@@ -83,6 +83,7 @@ h2, h3 {
   font-size: 3rem;
   font-weight: 600;
   color: #2b5876;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .navbar .nav__menu {
@@ -103,7 +104,7 @@ h2, h3 {
 
 .nav__item .nav__link {
   color: #2b5876;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .nav__item .nav__link:hover {
@@ -194,6 +195,7 @@ h2, h3 {
   font-size: 3rem;
   font-weight: 600;
   color: #2b5876;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .navbar .nav__menu {
@@ -214,7 +216,7 @@ h2, h3 {
 
 .nav__item .nav__link {
   color: #2b5876;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .nav__item .nav__link:hover {
@@ -339,10 +341,24 @@ h2, h3 {
 }
 
 .button {
-  text-transform: uppercase;
   display: inline-block;
-  border-radius: 5px;
   border: 0;
+}
+
+.button--space {
+  letter-spacing: 1.5px;
+}
+
+.button--uppercase {
+  text-transform: uppercase;
+}
+
+.button--normal {
+  font-weight: 300;
+}
+
+.button--round {
+  border-radius: 5px;
 }
 
 .button--shadow {
@@ -393,12 +409,18 @@ h2, h3 {
   font-weight: 600;
 }
 
-.button--background-primary {
-  background-color: #2b5876;
-}
-
 .button--hero {
   margin-top: 50px;
+}
+
+.button--background-primary {
+  background-color: #2b5876;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.button--background-primary:hover {
+  background-color: #1b4058;
 }
 
 @media only screen and (max-width: 768px) {
@@ -424,7 +446,7 @@ h2, h3 {
   margin: auto;
   color: #777;
   line-height: 1.7;
-  padding: 12rem 0;
+  padding-top: 12rem;
 }
 
 .skill {
@@ -505,6 +527,7 @@ h2, h3 {
 .project {
   color: #777;
   line-height: 1.7;
+  padding-top: 10rem;
 }
 
 .project__one {
@@ -512,18 +535,33 @@ h2, h3 {
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
-  -webkit-column-gap: 60px;
-          column-gap: 60px;
+  -webkit-column-gap: 6rem;
+          column-gap: 6rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   justify-items: end;
-  margin-bottom: 120px;
+}
+
+.project__one:not(:last-child) {
+  margin-bottom: 12rem;
 }
 
 .project-img {
-  width: 500px;
-  border-radius: 5px;
+  max-width: 500px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-filter: brightness(100%);
+  -webkit-box-shadow: 2px 2px 12px -2px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 12px -2px rgba(0, 0, 0, 0.2);
+}
+
+.project-img:hover {
+  -webkit-transform: scale(1.019);
+          transform: scale(1.019);
+  -webkit-filter: brightness(60%);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .project__title {
@@ -534,7 +572,17 @@ h2, h3 {
   margin: 30px 0;
 }
 
-@media (max-width: 768px) {
+.project-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.button--view {
+  margin-left: 20px;
+}
+
+@media (max-width: 900px) {
   .project__one {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -544,16 +592,24 @@ h2, h3 {
     margin: auto;
   }
   .project-img {
-    width: 300px;
+    width: 90%;
   }
   .project__one {
-    justify-items: center;
+    justify-items: left;
   }
   .project--2 {
-    text-align: center;
+    text-align: left;
   }
   .project__text {
     margin: 15px 0;
+  }
+  .project-buttons {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+  .button--view {
+    margin-left: 10px;
   }
 }
 
@@ -561,6 +617,7 @@ h2, h3 {
   text-align: center;
   width: 40%;
   margin: auto;
+  padding-top: 12rem;
 }
 
 .blog__content {
@@ -578,6 +635,10 @@ h2, h3 {
   font-size: 3rem;
 }
 
+.viewall:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .blog__link {
     margin-bottom: 15px;
@@ -590,5 +651,6 @@ h2, h3 {
 .contact {
   background-color: #2b5876;
   color: white;
+  margin-top: 12rem;
 }
 /*# sourceMappingURL=style.css.map */
