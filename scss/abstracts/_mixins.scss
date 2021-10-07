@@ -23,3 +23,20 @@
     padding: 1.5rem 2rem;
     font-weight: 600;
 }
+@mixin container--head {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+@mixin container--title {
+    font-size: 4rem;
+}
+
+@mixin container--text {
+    width: 70%;
+    margin: auto;
+}
+@mixin container--width{
+    width: 90%;
+    margin: auto;
+}

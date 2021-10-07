@@ -5,6 +5,16 @@
     color: color(text-color);
     line-height: 1.7;
     padding-top: 10rem;
+    @include container--width;
+}
+.project__title {
+    @include container--title;
+}
+.project__head {
+    @include container--head;
+}
+.project__text {
+    @include container--text;
 }
 .project__one {
     @include grid--1x2;

@@ -1,6 +1,5 @@
 .about {
-    width: 92%;
-    margin: auto;
+    @include container--width;
     color: color(text-color);
     line-height: 1.7;
     padding-top: 12rem;
@@ -15,15 +14,13 @@
     font-weight: 600;
 }
 .about__title {
-    font-size: 4rem;
+    @include container--title;
 }
 .about__head {
-    text-align: center;
-    margin-bottom: 90px;
+    @include container--head;
 }
 .about__text {
-    width: 70%;
-    margin: auto;
+    @include container--text;
 }
 .about-cta {
     margin-top: 30px;
@@ -40,6 +37,7 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 
 
 @media (max-width: 768px){
