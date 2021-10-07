@@ -4,3 +4,22 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@mixin grid--1x2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 6rem;
+}
+
+@mixin button--large {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 1.5rem 8rem;
+}
+
+@mixin button--md {
+    font-size: 1.4rem;
+    padding: 1.5rem 2rem;
+    font-weight: 600;
+}

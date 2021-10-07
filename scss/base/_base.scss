@@ -3,11 +3,10 @@
 html {
     font-size: 62.5%;
     font-family: 'Rubik', sans-serif;
+    scroll-behavior: smooth;
 }
 h1, h2, h3 {
     font-family: 'Source Sans Pro', sans-serif;
-    // font-weight: 500;
-
 }
 * {
     box-sizing: border-box;
@@ -38,11 +37,7 @@ img {
     margin: auto;
 }
 main {
-    margin-top: 80px;
-}
-
-.lock-scroll {
-    overflow: hidden;
+    margin-top: 40px;
 }
 h2, h3 {
     color: color(primary-color);

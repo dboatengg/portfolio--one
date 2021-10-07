@@ -29,10 +29,8 @@
     margin-top: 30px;
 }
 .about-flex {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    @include grid--1x2;
     align-items: flex-start;
-    column-gap: 50px;
 }
 .flex-title {
     margin-bottom: 30px;
