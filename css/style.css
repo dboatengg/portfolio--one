@@ -663,7 +663,7 @@ h2, h3 {
   background-color: #2b5876;
   color: white;
   margin-top: 12rem;
-  padding: 10rem 1rem;
+  padding: 10rem 0;
 }
 
 .contact__content {
@@ -706,9 +706,13 @@ textarea {
 .form__button {
   padding: 1.5rem 4rem;
   font-size: 2rem;
+  border-radius: 5px;
 }
 
 @media (max-width: 900px) {
+  .contact {
+    padding: 5rem 0;
+  }
   input, textarea {
     padding: 2rem 1rem;
   }
