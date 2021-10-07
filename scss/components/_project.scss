@@ -13,9 +13,9 @@
 .project__head {
     @include container--head;
 }
-.project__text {
-    @include container--text;
-}
+// .project__text {
+//     @include container--text;
+// }
 .project__one {
     @include grid--1x2;
     align-items: center;
