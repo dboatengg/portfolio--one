@@ -740,7 +740,7 @@ textarea {
 }
 
 footer {
-  background-color: #000;
+  background-color: #080808;
   color: #fff;
   line-height: 1.5;
 }
@@ -813,13 +813,7 @@ footer a {
   .footer__right {
     -ms-grid-column-align: start;
         justify-self: start;
-    margin-top: 30px;
-  }
-}
-
-@media (max-width: 768px) {
-  .social__link {
-    font-size: 15px;
+    margin-top: 50px;
   }
 }
 /*# sourceMappingURL=style.css.map */
