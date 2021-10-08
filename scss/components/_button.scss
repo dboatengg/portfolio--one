@@ -35,9 +35,9 @@
 .button--large {
     @include button--large;
 }
-.about-buttons {
-    display: flex;
-}
+// .about-buttons {
+//     display: flex;
+// }
 .button--resume {
     margin-left: 30px;
 }
@@ -62,9 +62,9 @@
     .button--large {
         padding: 1.5rem 5rem;
     }
-    .about-buttons {
-        display: block;
-    }
+    // .about-buttons {
+    //     display: block;
+    // }
     .button--resume {
         margin: auto;
     }

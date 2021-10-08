@@ -390,12 +390,6 @@ h2, h3 {
   padding: 1.5rem 8rem;
 }
 
-.about-buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .button--resume {
   margin-left: 30px;
 }
@@ -423,9 +417,6 @@ h2, h3 {
 @media only screen and (max-width: 768px) {
   .button--large {
     padding: 1.5rem 5rem;
-  }
-  .about-buttons {
-    display: block;
   }
   .button--resume {
     margin: auto;
