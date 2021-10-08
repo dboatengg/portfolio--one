@@ -537,11 +537,6 @@ h2, h3 {
   margin-bottom: 90px;
 }
 
-.project__text {
-  width: 70%;
-  margin: auto;
-}
-
 .project__one {
   display: -ms-grid;
   display: grid;
@@ -581,7 +576,9 @@ h2, h3 {
 }
 
 .project__text {
-  margin: 30px 0;
+  width: 60%;
+  padding: auto 40px;
+  margin: auto;
 }
 
 .project-buttons {
@@ -611,7 +608,9 @@ h2, h3 {
     text-align: left;
   }
   .project__text {
-    margin: 15px 0;
+    padding: 15px 0;
+    margin: 0;
+    width: 100%;
   }
   .project-buttons {
     -webkit-box-pack: left;
