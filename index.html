@@ -21,6 +21,14 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/f406218f2f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body id="home">
     <!-- header component start -->
@@ -176,7 +184,7 @@
             itaque minus.
           </p>
         </div>
-        <div class="project__content">
+        <div class="project__content" data-aos="fade-right">
           <div class="project__one">
             <a href="#">
               <img class="project-img" src="assets/project-4.png" alt="" />
@@ -221,7 +229,7 @@
             </div>
           </div>
 
-          <div class="project__one">
+          <div class="project__one" data-aos="fade-left">
             <a href="#">
               <img class="project-img" src="assets/project-5.png" alt="" />
             </a>
@@ -266,7 +274,7 @@
             </div>
           </div>
 
-          <div class="project__one">
+          <div class="project__one" data-aos="fade-right">
             <a href="#">
               <img class="project-img" src="assets/project-6.png" alt="" />
             </a>
@@ -314,17 +322,18 @@
       <!-- project section ending  -->
 
       <!-- blog section start  -->
-      <section class="blog container" id="blog">
+      <section class="blog container" id="blog" data-aos="fade-up">
         <div class="blog__content">
           <h2 class="blog__title">Recent Blog Posts</h2>
           <div class="">
-            <a href="#" class="blog__link"
-              >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Recusandae eum corrupti nostrum</a
+            <a
+              href="https://boatengg.hashnode.dev/understanding-block-element-modifier-bem-for-beginners"
+              class="blog__link"
+              >Understanding Block-Element-Modifier (BEM) for Beginners</a
             >
             <a href="#" class="blog__link"
-              >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Recusandae eum corrupti nostrum</a
+              >10 Javascript Higher-Order Arrays Methods to help simplify your
+              code</a
             >
             <a href="#" class="blog__link"
               >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -332,7 +341,9 @@
             >
           </div>
         </div>
-        <a href="#" class="viewall">View All Post</a>
+        <a href="https://boatengg.hashnode.dev/" target="_blank" class="viewall"
+          >View All Post</a
+        >
       </section>
       <!-- blog section end  -->
 
@@ -345,7 +356,7 @@
             itaque minus.
           </p>
         </div>
-        <div class="contact__content">
+        <div class="contact__content" data-aos="zoom-in">
           <form
             action="mailto:dicksonboateng65@gmail.com"
             id="form"
@@ -389,7 +400,52 @@
           </form>
         </div>
       </section>
+
+      <footer>
+        <div class="footer__content container">
+          <div class="footer__flex">
+            <div class="footer__left">
+              <h2 class="footer__title">BOATENG DICKSON</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                veniam excepturi autem mollitia odit temporibus ducimus
+                exercitationem.
+              </p>
+            </div>
+            <div class="footer__right">
+              <h2 class="footer__title">SOCIAL</h2>
+              <div class="social">
+                <a class="social__link" href=""
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a class="social__link" href=""
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a class="social__link" href=""
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a class="social__link" href=""
+                  ><i class="fas fa-envelope"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <small class="signature"
+            >&copy; Copyright 2021, Handcrafted by
+            <a
+              class="boatengg"
+              href="https://www.twitter.com/Dicksonboatengg"
+              target="_blank"
+              >Boatengg</a
+            ></small
+          >
+        </div>
+      </footer>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="main.js"></script>
   </body>
 </html>

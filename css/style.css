@@ -279,8 +279,8 @@ h2, h3 {
 
 .hero {
   background-color: #2b5876;
-  background-image: -webkit-gradient(linear, left top, right top, from(#2b5876), to(#4e4376)), url("/assets/png/oriental-tiles.png");
-  background-image: linear-gradient(to right, #2b5876, #4e4376), url("/assets/png/oriental-tiles.png");
+  background-image: -webkit-gradient(linear, left top, right top, from(#2b5876), to(#4e4376)), url("/assets/pattern.svg");
+  background-image: linear-gradient(to right, #2b5876, #4e4376), url("/assets/pattern.svg");
   height: 100vh;
   color: #fff;
   max-height: 120rem;
@@ -453,7 +453,6 @@ h2, h3 {
   display: inline-block;
   padding: 10px 20px;
   border-radius: 5px;
-  font-weight: 600;
 }
 
 .about__title {
@@ -536,6 +535,11 @@ h2, h3 {
 .project__head {
   text-align: center;
   margin-bottom: 90px;
+}
+
+.project__text {
+  width: 70%;
+  margin: auto;
 }
 
 .project__one {
@@ -731,7 +735,91 @@ textarea {
     margin-bottom: 20px;
   }
   form {
-    padding: 4rem 1.5rem;
+    padding: 4rem 2rem;
+  }
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  line-height: 1.5;
+}
+
+footer a {
+  color: white;
+}
+
+.footer__flex {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-column-gap: 6rem;
+          column-gap: 6rem;
+  padding: 5.5rem 0;
+}
+
+.footer__right {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+.signature {
+  display: block;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.social__link:not(:first-child) {
+  margin-left: 20px;
+}
+
+.social__link {
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+.social__link:hover {
+  color: #2b5876;
+}
+
+.footer__title {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.boatengg {
+  color: #eee;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-decoration: underline;
+}
+
+.boatengg:hover {
+  color: #2b5876;
+}
+
+@media (max-width: 900px) {
+  .footer__flex {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .footer__content {
+    width: 92%;
+  }
+  .footer__right {
+    -ms-grid-column-align: start;
+        justify-self: start;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .social__link {
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=style.css.map */

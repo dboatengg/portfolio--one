@@ -1,0 +1,62 @@
+footer {
+    background-color: #000;
+    color: #fff;
+    line-height: 1.5
+}
+footer a {
+    color: white;
+}
+.footer__flex {
+    @include grid--1x2;
+    padding: 5.5rem 0;
+}
+.footer__right {
+    justify-self: end;
+}
+.signature {
+    display: block;
+    text-align: center;
+    padding: 3rem 0;
+}
+.social__link:not(:first-child) {
+    margin-left: 20px;
+}
+.social__link{
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+}
+.social__link:hover {
+    color: color(primary-color);
+}
+.footer__title {
+    margin-bottom: 20px;
+    color: #fff;
+}
+.boatengg {
+    color: #eee;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+.boatengg:hover {
+    color: color(primary-color);
+}
+
+@media (max-width: 900px){
+    .footer__flex {
+        grid-template-columns: 1fr;
+    }
+    .footer__content {
+        width: 92%
+    }
+    .footer__right {
+        justify-self: start;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 768px){
+    .social__link {
+        font-size: 15px;
+    }
+}
