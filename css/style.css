@@ -567,9 +567,8 @@ h2, h3 {
 }
 
 .project__text {
-  width: 60%;
   padding: auto 40px;
-  margin: auto;
+  margin: 0;
 }
 
 .project-buttons {
@@ -615,7 +614,7 @@ h2, h3 {
 
 .blog {
   text-align: center;
-  width: 40%;
+  width: 60%;
   margin: auto;
   padding-top: 12rem;
 }
