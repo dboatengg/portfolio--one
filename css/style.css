@@ -279,8 +279,7 @@ h2, h3 {
 
 .hero {
   background-color: #2b5876;
-  background-image: -webkit-gradient(linear, left top, right top, from(#2b5876), to(#4e4376)), url("/assets/pattern.svg");
-  background-image: linear-gradient(to right, #2b5876, #4e4376), url("/assets/pattern.svg");
+  background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
   height: 100vh;
   color: #fff;
   max-height: 120rem;
@@ -495,6 +494,7 @@ h2, h3 {
   }
   .about {
     margin: auto;
+    padding-top: 8rem;
   }
   .about-right__title {
     margin-top: 40px;
