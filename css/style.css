@@ -278,8 +278,8 @@ h2, h3 {
 }
 
 .hero {
-  background-color: #2b5876;
-  background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
+  background-color: #003b23;
+  background-image: url(/assets/diamond-upholstery.png);
   height: 100vh;
   color: #fff;
   max-height: 120rem;

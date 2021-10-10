@@ -1,11 +1,8 @@
 @import "./header";
 .hero {
     // background-color: #2b5876;
-    // background-image: linear-gradient(to right, #2b5876, #4e4376),url("");
-    background-color: #2b5876;
-    // background-color: #003b23;
-    // background-color: #004700;
-    background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
+    background-color: #003b23;
+    background-image: url(/assets/diamond-upholstery.png);
     height: 100vh;
     color: #fff;
     max-height: 120rem;
