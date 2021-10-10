@@ -2,75 +2,90 @@
     display: inline-block;
     border: 0;
 }
+
+
+
+// button--modifiers
 .button--space {
     letter-spacing: 1.5px;
 }
+
 .button--uppercase {
     text-transform: uppercase;
 }
+
 .button--round {
     border-radius: 5px;
 }
+
 .button--shadow {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
+
 .button--center{
     text-align: center;
 }
+
 .button--left{
     text-align: left;
 }
+
 .button--right{
     text-align: right;
 }
+
 .button--white {
     color: #fff;
 }
+
 .button--primary {
     color: color(primary-color);
 }
+
 .button--background-white {
     background: rgb(255, 255, 255);
 }
+
 .button--large {
     @include button--large;
 }
-// .about-buttons {
-//     display: flex;
-// }
+
 .button--resume {
     margin-left: 30px;
 }
+
 .button--md {
     @include button--md;
 }
+
 .button--hero {
     margin-top: 50px;
 }
+
 .button--background-primary {
     background-color: color(primary-color);
     transition: 0.3s;
 }
+
 .button--background-primary:hover {
     background-color: #1b4058;
 }
 
 
 
-//buttons for smaller screen
+//buttons styling for smaller screen
 @media only screen and (max-width: 768px){
     .button--large {
         padding: 1.5rem 5rem;
     }
-    // .about-buttons {
-    //     display: block;
-    // }
     .button--resume {
         margin: auto;
     }
 }
 
 
+
+// button styling for screens 320px and below 
 @media only screen and (max-width: 320px){
     .button--large {
         padding: 1.5rem 2.5rem;

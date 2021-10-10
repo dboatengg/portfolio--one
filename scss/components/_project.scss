@@ -42,7 +42,8 @@
 }
 .project__text {
     padding: auto 40px;
-    margin: 0;
+    // margin-left: 0;
+    @include container--text;
 }
 .project-buttons {
     display: flex;

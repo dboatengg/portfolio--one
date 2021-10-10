@@ -301,13 +301,13 @@ h2, h3 {
 
 .hero__title {
   text-transform: uppercase;
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 700;
-  letter-spacing: 3px;
 }
 
 .hero__text {
   line-height: 1.6;
+  margin-top: 20px;
 }
 
 .hero__paragraph {
@@ -321,7 +321,7 @@ h2, h3 {
     min-height: 45rem;
   }
   .hero__title {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .hero__paragraph {
     font-size: 1.8rem;
@@ -568,7 +568,8 @@ h2, h3 {
 
 .project__text {
   padding: auto 40px;
-  margin: 0;
+  width: 70%;
+  margin: auto;
 }
 
 .project-buttons {
@@ -672,6 +673,12 @@ h2, h3 {
   margin-bottom: 40px;
 }
 
+.contact__text {
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+
 form {
   color: #2b5876;
   padding: 5rem 3rem;
@@ -694,6 +701,7 @@ input, textarea {
 
 textarea {
   font-family: inherit;
+  resize: none;
 }
 
 .form__button {

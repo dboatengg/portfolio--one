@@ -19,6 +19,10 @@
 .form__area {
     margin-bottom: 40px;
 }
+.contact__text {
+    @include container--text;
+    margin-top: 20px;
+}
 form {
     color: color(primary-color);
     padding: 5rem 3rem;
@@ -38,6 +42,7 @@ input, textarea {
 }
 textarea{
     font-family: inherit;
+    resize: none;
 }
 .form__button {
     padding: 1.5rem 4rem;
