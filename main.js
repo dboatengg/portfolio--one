@@ -19,11 +19,14 @@ function closeMenu() {
 }
 
 
-// form 
+// form
 // const userName = document.getElementById("name");
 // const email = document.getElementById("email");
 // const message = document.getElementById("message");
+// const formButton = document.querySelector(".form__button");
 
-// formButton.addEventListener("click", () => {
-//     form.value = "";
+// formButton.addEventListener("", () => {
+//     userName.value = "";
+//     message.value = "";
+//     email.value = "";
 // })
