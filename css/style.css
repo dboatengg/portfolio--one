@@ -568,8 +568,7 @@ h2, h3 {
 
 .project__text {
   padding: auto 40px;
-  width: 70%;
-  margin: auto;
+  margin: 20px 0;
 }
 
 .project-buttons {
@@ -592,11 +591,11 @@ h2, h3 {
     width: 92%;
     margin: auto;
   }
-  .project-img {
-    width: 90%;
-  }
   .project--2 {
     text-align: left;
+  }
+  .project-img {
+    width: 90%;
   }
   .project__text {
     padding: 15px 0;
