@@ -634,6 +634,10 @@ h2, h3 {
   font-size: 3rem;
 }
 
+.viewall {
+  margin-top: 2rem;
+}
+
 .viewall:hover {
   text-decoration: underline;
 }
