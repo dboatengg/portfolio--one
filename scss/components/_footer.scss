@@ -1,64 +1,61 @@
 footer {
-    background-color: #080808;
-    color: #fff;
-    line-height: 1.5
+  background-color: #080808;
+  color: #fff;
+  line-height: 1.5;
 }
 footer a {
-    color: white;
+  color: white;
 }
 .footer__flex {
-    @include grid--1x2;
-    padding: 5.5rem 0;
+  @include grid--1x2;
+  padding: 5.5rem 0;
 }
 .footer__right {
-    justify-self: end;
+  justify-self: end;
 }
 .email {
-    margin-top: 20px;
-}
-.footer__left, .footer__title, .email {
-    opacity: 0.8;
+  margin-top: 20px;
 }
 .signature {
-    display: block;
-    text-align: center;
-    padding: 3rem 0;
+  display: block;
+  text-align: center;
+  padding: 3rem 0;
 }
 .social__link:not(:first-child) {
-    margin-left: 20px;
+  margin-left: 20px;
 }
-.social__link{
-    display: inline-block;
-    cursor: pointer;
-    transition: 0.3s;
-    font-size: 20px;
+.social__link {
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 20px;
 }
 .social__link:hover {
-    color: color(primary-color);
+  color: color(primary-color);
 }
 .footer__title {
-    margin-bottom: 20px;
-    color: #fff;
-    font-size: 16px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 22px;
 }
 .boatengg {
-    color: #eee;
-    transition: 0.3s;
-    text-decoration: underline;
+  color: #eee;
+  transition: 0.3s;
+  text-decoration: underline;
 }
 .boatengg:hover {
-    color: color(primary-color);
+  color: color(primary-color);
 }
 
-@media (max-width: 900px){
-    .footer__flex {
-        grid-template-columns: 1fr;
-    }
-    .footer__content {
-        width: 92%
-    }
-    .footer__right {
-        justify-self: start;
-        margin-top: 50px;
-    }
+@media (max-width: 900px) {
+  .footer__flex {
+    grid-template-columns: 1fr;
+  }
+  .footer__content {
+    width: 92%;
+  }
+  .footer__right {
+    justify-self: start;
+    margin-top: 50px;
+  }
 }

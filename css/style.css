@@ -768,10 +768,6 @@ footer a {
   margin-top: 20px;
 }
 
-.footer__left, .footer__title, .email {
-  opacity: 0.8;
-}
-
 .signature {
   display: block;
   text-align: center;
@@ -797,7 +793,7 @@ footer a {
 .footer__title {
   margin-bottom: 20px;
   color: #fff;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 .boatengg {
