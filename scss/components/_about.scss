@@ -1,63 +1,61 @@
 .about {
-    @include container--width;
-    color: color(text-color);
-    line-height: 1.7;
-    padding-top: 8rem;
+  @include container--width;
+  color: color(text-color);
+  line-height: 1.7;
+  padding-top: 6rem;
 }
 .skill {
-    margin-bottom: 1.5rem;
-    margin-right: 1rem;
-    background-color: color(skill-background);
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 5px;
+  margin-bottom: 1.5rem;
+  margin-right: 1rem;
+  background-color: color(skill-background);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 .about__title {
-    @include container--title;
+  @include container--title;
 }
 .about__head {
-    @include container--head;
+  @include container--head;
 }
 .about__text {
-    @include container--text;
+  @include container--text;
 }
 .about-cta {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .about-flex {
-    @include grid--1x2;
-    align-items: flex-start;
+  @include grid--1x2;
+  align-items: flex-start;
 }
 .flex-title {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .skills {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-
-
-@media (max-width: 768px){
-    .about-flex {
-        grid-template-columns: 1fr;
-    }
-    .about {
-        margin: auto;
-        padding-top: 8rem;
-    }
-    .about-right__title {
-        margin-top: 40px;
-    }
-    .about__text {
-        width: 85%;
-    }
-    .about-cta {
-        margin-top: 20px;
-    }
-    .skill {
-        padding: 7px 15px;
-        font-size: 15px;
-    }
+@media (max-width: 768px) {
+  .about-flex {
+    grid-template-columns: 1fr;
+  }
+  .about {
+    margin: auto;
+    padding-top: 5rem;
+  }
+  .about-right__title {
+    margin-top: 40px;
+  }
+  .about__text {
+    width: 85%;
+  }
+  .about-cta {
+    margin-top: 20px;
+  }
+  .skill {
+    padding: 7px 15px;
+    font-size: 15px;
+  }
 }

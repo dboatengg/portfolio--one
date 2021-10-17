@@ -1,79 +1,79 @@
 @import "../abstracts/variables";
 .contact {
-    background-color: color(primary-color);
-    color: white;
-    margin-top: 12rem;
-    padding: 10rem 0;
+  background-color: color(primary-color);
+  color: white;
+  margin-top: 8rem;
+  padding: 10rem 0;
 }
 .contact__content {
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
-    border-radius: 5px;
-    background-color: white;
-    max-width: 80rem;
-    margin: auto;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: white;
+  max-width: 50rem;
+  margin: auto;
 }
 .contact__title {
-    color: white;
-    font-size: 4rem;
+  color: white;
+  font-size: 4rem;
 }
 .form__area {
-    margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .contact__text {
-    @include container--text;
-    margin-top: 20px;
+  @include container--text;
+  margin-top: 20px;
 }
 form {
-    color: color(primary-color);
-    padding: 5rem 3rem;
+  color: color(primary-color);
+  padding: 5rem 3rem;
 }
 label {
-    display: block;
-    margin-bottom: 10px;
+  display: block;
+  margin-bottom: 10px;
 }
-input, textarea {
-    width: 100%;
-    outline: none;
-    background-color: rgb(240, 240, 240);
-    border: 0;
-    border-radius: 5px;
-    font-size: 16px;
-    padding: 2.2rem 1rem;
+input,
+textarea {
+  width: 100%;
+  outline: none;
+  background-color: rgb(240, 240, 240);
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 1.5rem 1rem;
 }
-textarea{
-    font-family: inherit;
-    resize: none;
+textarea {
+  font-family: inherit;
+  resize: none;
 }
 .form__button {
-    padding: 1.5rem 4rem;
-    font-size: 2rem;
-    border-radius: 5px;
+  padding: 1.5rem 4rem;
+  font-size: 2rem;
+  border-radius: 5px;
 }
 
-
-
-@media (max-width: 900px){
-    .contact {
-        padding: 5rem 0;
-        margin-top: 8rem;
-    }
-    input, textarea{
-        padding: 2rem 1rem;
-    }
-    .form__button {
-        width: 100%;
-        text-align: center;
-    }
-    .contact__content {
-        width: 92%;
-    }
-    label {
-        margin-bottom: 5px;
-    }
-    .form__area {
-        margin-bottom: 20px;
-    }
-    form {
-        padding: 4rem 2rem;
-    }
+@media (max-width: 900px) {
+  .contact {
+    padding: 5rem 0;
+    margin-top: 8rem;
+  }
+  input,
+  textarea {
+    padding: 2rem 1rem;
+  }
+  .form__button {
+    width: 100%;
+    text-align: center;
+  }
+  .contact__content {
+    width: 92%;
+  }
+  label {
+    margin-bottom: 5px;
+  }
+  .form__area {
+    margin-bottom: 20px;
+  }
+  form {
+    padding: 4rem 2rem;
+  }
 }

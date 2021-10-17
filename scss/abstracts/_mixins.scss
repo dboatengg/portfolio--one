@@ -1,42 +1,42 @@
 // flex-space-between
 @mixin flex-s-b {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @mixin grid--1x2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 6rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 6rem;
 }
 
 @mixin button--large {
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 2px;
-    padding: 1.5rem 8rem;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 1.5rem 8rem;
 }
 
 @mixin button--md {
-    font-size: 1.4rem;
-    padding: 1.5rem 2rem;
-    font-weight: 600;
+  font-size: 1.4rem;
+  padding: 1.5rem 2rem;
+  font-weight: 600;
 }
 @mixin container--head {
-    text-align: center;
-    margin-bottom: 90px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 @mixin container--title {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 @mixin container--text {
-    width: 70%;
-    margin: auto;
+  width: 70%;
+  margin: auto;
 }
-@mixin container--width{
-    width: 90%;
-    margin: auto;
+@mixin container--width {
+  width: 90%;
+  margin: auto;
 }
